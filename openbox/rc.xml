@@ -301,7 +301,7 @@
     </keybind>
     <keybind key="A-0x31">
       <action name="execute">
-        <execute>/home/benjamin/bin/wmctrl_cycle_application</execute>
+        <execute>~/.config/wmctrl_cycle_application</execute>
       </action>
     </keybind>
   </keyboard>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<menu id="1" label="Development">
+			<item label="Eclipse"> <action name="Execute">
+				<execute>/home/benjamin/android/eclipse/eclipse</execute>
+			</action> </item>
+			<item label="Python"> <action name="Execute">
+				<execute>xterm -e python</execute>
+			</action> </item>
+		</menu>
+		<menu id="2" label="Editors">
+			<item label="Nano"> <action name="Execute">
+				<execute>xterm -e nano</execute>
+			</action> </item>
+			<item label="Sublime Text 3"> <action name="Execute">
+				<execute>subl3</execute>
+			</action> </item>
+			<item label="Vi"> <action name="Execute">
+				<execute>xterm -e vi</execute>
+			</action> </item>
+			<item label="Vim"> <action name="Execute">
+				<execute>xterm -e vim</execute>
+			</action> </item>
+		</menu>
+		<menu id="18" label="Games">
+			<menu id="17" label="Amusement">
+				<item label="bb"> <action name="Execute">
+					<execute>bb</execute>
+				</action> </item>
+			</menu>
+		</menu>
+		<menu id="7" label="Multimedia">
+			<item label="ALSA mixer"> <action name="Execute">
+				<execute>xterm -e alsamixer</execute>
+			</action> </item>
+		</menu>
+		<menu id="5" label="Network">
+			<item label="Google Chrome (beta)"> <action name="Execute">
+				<execute>google-chrome-beta</execute>
+			</action> </item>
+			<item label="Links"> <action name="Execute">
+				<execute>xterm -e links</execute>
+			</action> </item>
+			<item label="TkVNC"> <action name="Execute">
+				<execute>xterm -e tkvnc</execute>
+			</action> </item>
+			<item label="WPA Supplicant Administration GUI"> <action name="Execute">
+				<execute>wpa_gui</execute>
+			</action> </item>
+		</menu>
+		<menu id="39" label="Other">
+			<item label="CMake"> <action name="Execute">
+				<execute>cmake-gui</execute>
+			</action> </item>
+			<item label="sandbox"> <action name="Execute">
+				<execute>xterm -e sandbox</execute>
+			</action> </item>
+		</menu>
+		<menu id="4" label="Science">
+			<item label="bc"> <action name="Execute">
+				<execute>xterm -e bc</execute>
+			</action> </item>
+			<item label="dc"> <action name="Execute">
+				<execute>xterm -e dc</execute>
+			</action> </item>
+		</menu>
+		<menu id="19" label="Shells">
+			<item label="GIT"> <action name="Execute">
+				<execute>xterm -e git</execute>
+			</action> </item>
+			<item label="UXTerm"> <action name="Execute">
+				<execute>uxterm</execute>
+			</action> </item>
+			<item label="Xterm"> <action name="Execute">
+				<execute>xterm</execute>
+			</action> </item>
+		</menu>
+		<menu id="37" label="System">
+			<menu id="36" label="Settings">
+				<menu id="21" label="GNOME">
+					<item label="Network Connections"> <action name="Execute">
+						<execute>nm-connection-editor</execute>
+					</action> </item>
+				</menu>
+				<item label="Manage Printing"> <action name="Execute">
+					<execute>xdg-open http://localhost:631/</execute>
+				</action> </item>
+				<item label="Qt Configuration Tool"> <action name="Execute">
+					<execute>qtconfig</execute>
+				</action> </item>
+			</menu>
+			<item label="Batti"> <action name="Execute">
+				<execute>batti</execute>
+			</action> </item>
+			<item label="pstree"> <action name="Execute">
+				<execute>xterm -e pstree</execute>
+			</action> </item>
+			<item label="pstree"> <action name="Execute">
+				<execute>xterm -e pstree.x11</execute>
+			</action> </item>
+			<item label="pstree"> <action name="Execute">
+				<execute>xterm -e /usr/bin/pstree.x11</execute>
+			</action> </item>
+			<item label="Top"> <action name="Execute">
+				<execute>xterm -e top</execute>
+			</action> </item>
+		</menu>
+		<menu id="38" label="Utilities">
+			<item label="Info"> <action name="Execute">
+				<execute>xterm -e info</execute>
+			</action> </item>
+		</menu>
+		<separator/>
+		<menu id="40" label="OpenBox">
+			<menu id="client-list-menu"/>
+			<item label="Reconfigure"> <action name="Reconfigure"/> </item>
+			<separator/>
+			<item label="Exit"> <action name="Exit"/> </item>
+		</menu>
+	</menu>
+</openbox_menu>

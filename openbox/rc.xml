@@ -304,6 +304,11 @@
         <execute>~/.config/wmctrl_cycle_application</execute>
       </action>
     </keybind>
+    <keybind key="C-l">
+    	<action name="execute">
+	  <execute>/usr/bin/xscreensaver-command --lock</execute>
+	</action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>

@@ -13,6 +13,7 @@ synergy&
 sleep 2
 
 setxkbmap $(setxkbmap -query | grep "^layout:" | awk -F ": *" '{print $2}')
+/usr/bin/xscreensaver -no-splash &
 $HOME/.config/openbox/specific.sh
 #sleep 1 && nm-applet --sm-disable &
 #sleep 2

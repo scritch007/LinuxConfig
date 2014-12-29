@@ -1,6 +1,7 @@
 #export GNOME_DESKTOP_SESSION_ID="openbox" /home/benjamin/bin/fix_gtk_theme&
 
 DESKTOP_ENV="OPENBOX"
+sleep 2
 guake&
 pnmixer &
 compton --config /home/benjamin/.config/compton.conf&
@@ -8,12 +9,11 @@ compton --config /home/benjamin/.config/compton.conf&
 tint2&
 nm-applet&
 cairo-dock &
-hsetroot -fill /home/benjamin/Téléchargements/IMG_20141104_205351852.jpg 
 synergy&
 sleep 2
 
 setxkbmap $(setxkbmap -query | grep "^layout:" | awk -F ": *" '{print $2}')
-/home/benjamin/bin/runbattle.net
+$HOME/.config/openbox/specific.sh
 #sleep 1 && nm-applet --sm-disable &
 #sleep 2
 #
